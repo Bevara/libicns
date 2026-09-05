@@ -1,0 +1,17 @@
+{
+    "name": "libicns",
+    "description": "Apple icon (ICNS) decoder",
+    "filters":["icnsdec"],
+    "help": "This filter decodes the largest 32-bit icon of an Apple ICNS file using libicns.",
+    "support": [
+        "image"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libicns.accessor",
+    "filter_source":{
+        "icnsdec" : "dec_icns.c"
+    },
+    "extension":{
+      "icns" : "img"
+    },
+    "licence_required":false
+}

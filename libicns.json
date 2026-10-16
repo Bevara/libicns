@@ -1,5 +1,6 @@
 {
     "name": "libicns",
+    "version": "1.0.1",
     "description": "Apple icon (ICNS) decoder",
     "filters":["icnsdec"],
     "help": "This filter decodes the largest 32-bit icon of an Apple ICNS file using libicns.",
